@@ -1,16 +1,29 @@
-<section class="section">
+<section class="section section__staff">
   <div class="block">
     <div class="box">
       <h1>{{ heading }}</h1>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="block">
+    <div class="staff__content-box">
       <h3>{{ content }}</h3>
     </div>
   </div>
 </section>
-<section class="section__staff-bio">
+<section class="section section--pad">
+  <div class="block">
+    <div class="box">
+      <h1 class="is__text--centered">{{ title }}</h1>
+    </div>
+  </div>
+</section>
+<section class="section__staff-bio section--pad">
    {{staffBox}}
   <article class="staff__article">
 
-        <div class="staff__image" style="background: url('{{photo}}');"></div>
+        <div class="staff__image" style="background: url('{{transform src='{photo}'}});"></div>
 
         <div class="staff__info">
           <div class="staff__identity">
