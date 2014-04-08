@@ -20,7 +20,7 @@ module.exports = {
       {
         expand: true,
         src: [
-          '*'
+          '**/*'
         ],
         dest: 'build/',
       },
