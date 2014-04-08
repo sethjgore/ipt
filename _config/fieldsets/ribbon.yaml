@@ -1,0 +1,9 @@
+title: content
+
+fields:
+  heading:
+    display: Heading
+    type: text
+  body:
+    display: Subtitle
+    type: textarea

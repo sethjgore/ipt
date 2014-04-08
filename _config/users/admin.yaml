@@ -1,0 +1,13 @@
+---
+first_name: seth
+last_name: gore
+roles:
+  - admin
+email: sethjgore@gmail.com
+password: ""
+_uid: qX2fwC5342d4498f2ebFC1VpctQ
+password_hash: $2a$08$bGwvXQNpCRgIZkX1vRGWUOTCHDCtP3IXEXh5mOItLC4nuG3qziZve
+---
+Have no fears, your password, while plain text to start, will be encrypted upon first login. If ever you need to manually reset a password you can wipe out the password fields and start anew.
+
+Your username is the name of the YAML file. That would make this user "admin".

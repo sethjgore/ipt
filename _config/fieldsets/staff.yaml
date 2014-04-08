@@ -1,0 +1,25 @@
+title: Staff
+
+fields:
+  staffBox:
+    type: grid
+    fields:
+
+      photo:
+        type: file
+        display: Staff Image
+        destination: assets/img/staff/
+
+      bio:
+        display: Biography
+        required: true
+
+      name:
+        required: true
+        display: Name
+
+      occupation:
+        required: true
+        display: Occupation Title
+
+

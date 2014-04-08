@@ -1,0 +1,43 @@
+.search-bar {
+  $search-bar-border-color: $base-border-color;
+  $search-bar-border: 1px solid $search-bar-border-color;
+  $search-bar-background: lighten($search-bar-border-color, 10);
+
+  @include clearfix;
+  border: $search-bar-border;
+  background-color: $search-bar-background;
+  border-radius: $base-border-radius;
+  padding: 0.5em;
+  margin-bottom: 1em;
+
+  .search-item {
+    @include fill-parent;
+    position: relative; 
+  }
+
+  input {
+    @include box-sizing(border-box);
+    display: block;
+  }
+
+  div.search-and-submit {
+    position: relative;
+
+    input[type=search] {
+      @include appearance(none);
+      width: 100%;
+      padding: 1em;
+      font-style: italic;
+      border-radius: $base-border-radius * 2;
+      margin: 0;
+    }
+
+    input[type=submit] {
+      @include button(simple, lighten($light-gray, 10));
+      @include position(absolute, 0.3em 0.3em 0.3em 0);
+      font-size: $base-font-size;
+      color: darken($light-gray, 20);
+      outline: none;
+    }
+  }
+}

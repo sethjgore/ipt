@@ -1,0 +1,23 @@
+.oc
+  +outer-container
+  +row
+  padding: 0 2rem
+
+  +media($tabletopish)
+    padding: 0 4.5rem
+
+= oc
+  @extend .oc
+
+.c
+  +span-columns(6)
+
+.flex-grid
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.flex-both-center
+  @extend .flex-grid
+  justify-content: center
+  align-items: center

@@ -1,0 +1,24 @@
+<section class="section">
+  <div class="block">
+    <div class="box">
+      <h1>{{ heading }}</h1>
+      <h3>{{ content }}</h3>
+    </div>
+  </div>
+</section>
+<section class="section__staff-bio">
+   {{staffBox}}
+  <article class="staff__article">
+
+        <div class="staff__image" style="background: url('{{photo}}');"></div>
+
+        <div class="staff__info">
+          <div class="staff__identity">
+            <h3 class="staff__name">{{name}}</h3>
+            <h4 class="staff__occupation">{{occupation}}</h4>
+          </div>
+          <p class="staff__bio">{{bio}}</p>
+        </div>
+    </article>
+  {{ /staffBox }}
+</section>

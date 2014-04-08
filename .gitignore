@@ -1,0 +1,23 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Statamic files #
+######################
+_cache/*
+!_cache/index.html
+_logs/*
+!_logs/index.html
+
+# Folders #
+#######################
+node_modules/**/*
+/node_modules
+/bower_components
+bower_components/*

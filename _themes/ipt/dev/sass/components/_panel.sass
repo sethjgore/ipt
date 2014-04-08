@@ -1,0 +1,24 @@
+.component__panel
+  padding: 4rem
+  border-top-width: 2rem
+  border-top-style: solid
+  @extend .is__border--c-blklt
+
+  .panel__heading
+    @extend .is__text--size--giga
+    @extend .is__text--c-t
+    @extend .is__text--thin
+
+  .panel__text
+    @extend .is__text--c-blklt
+    @extend .is__text--size--mega
+
+.panel--large
+  h2
+    @extend .is__text--size--giga
+  p
+    @extend .is__text--size--mega
+
+.panel--green
+  @extend .component__panel
+  @extend .is__background--c-g
