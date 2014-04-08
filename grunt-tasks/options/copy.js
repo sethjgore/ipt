@@ -23,7 +23,6 @@ module.exports = {
           '*'
         ],
         dest: 'build/',
-        filter: 'isFile'
       },
       {
         expand: true,
