@@ -1,0 +1,14 @@
+###########################################################################################
+#
+#  DEV ENVIRONMENT VARIABLES
+#
+###########################################################################################
+
+# Just an example use case
+# enable_analytics: no
+
+enable_browserSync: true
+current_environment: "dev"
+
+_site_root: /clients/hatchit/ipt/
+_site_url: http://0.0.0.0:9999/clients/hatchit/ipt

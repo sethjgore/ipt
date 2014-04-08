@@ -1,0 +1,9 @@
+title: ailment
+
+fields:
+  ailments:
+    type: grid
+    display: Ailments
+    fields:
+      ailmentName:
+        display: Ailment Name

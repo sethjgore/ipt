@@ -1,0 +1,33 @@
+$button-group-background: lighten($light-gray, 10);
+$button-group-border-highlight: white;
+$button-group-active: $blue;
+
+.button-group {
+  @include clearfix;
+  
+  button {
+    @include button(simple, $button-group-background);
+    font-size: $base-font-size;
+    outline: none;
+    float: left;
+
+    &.active {
+      @include button(simple, $button-group-active);
+      font-size: $base-font-size;
+    }
+
+    &:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+      border-left: 1px solid $button-group-border-highlight;
+    }
+    &:last-child {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-left: 1px solid $button-group-border-highlight;
+    }
+  }
+}

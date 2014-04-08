@@ -1,0 +1,50 @@
+.section__home
+  background: url(../img/static/static-1.jpg)
+  background-size: cover
+  min-height: 100vh
+  @extend .flex-both-center
+
+  .home__title
+    @extend .is__text--c-w
+
+  .home__panel
+    @extend .is__text--size--giga
+    +media($tabletish)
+      font-size: 8rem
+
+.home__staff
+  @extend .is__background--c-blk
+  background-size: cover
+  min-height: 40vh
+  @extend .flex-both-center
+
+  .staff__title
+    @extend .is__text--c-w
+
+.section__why
+  @extend .section--pad
+
+.why__main--box
+  +span-columns(6)
+  +media($tabletopish)
+    +span-columns(6 of 12)
+
+  &.last
+    +omega
+
+.why__pill--box
+  @extend .is__text--centered
+
+.section__class
+  background-size: cover
+  min-height: 40vh
+  @extend .flex-both-center
+
+  .class__box
+    +span-columns(6)
+    +media($tabletopish)
+      +span-columns(8 of 12)
+      +shift(2)
+
+.aliments__box
+  @extend .is__text--centered

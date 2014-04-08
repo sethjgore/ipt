@@ -1,0 +1,10 @@
+<header>
+  <a href="{{homepage}}"><div class="site-logo"></div></a>
+  <nav role="navigation">
+    {{ nav from="/" }}
+      <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ endif }}>
+        {{ title }}
+      </a>
+    {{ /nav }}
+  </nav>
+</header>

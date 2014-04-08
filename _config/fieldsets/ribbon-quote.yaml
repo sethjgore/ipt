@@ -1,0 +1,18 @@
+title: Ribbon Quote
+
+fields:
+  section:
+    display: Quote & Link
+    type: grid
+    fields:
+      background:
+        type: file
+        destination: assets/img/
+      heading:
+        display: Title/Heading
+      copy:
+        display: Subtitle
+      link:
+        display: Link To?
+        type: text
+

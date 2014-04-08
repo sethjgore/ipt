@@ -1,0 +1,18 @@
+title: Ribbon Call to Action
+
+fields:
+  cta:
+    display: Call to Action
+    type: grid
+    fields:
+      background:
+        type: file
+        destination: assets/img/
+      heading:
+        display: Phrase
+      buttonText:
+        display: Button Text
+      link:
+        display: Link To?
+        type: text
+

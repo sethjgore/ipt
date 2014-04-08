@@ -1,0 +1,12 @@
+###########################################################################################
+#
+#  STAGING ENVIRONMENT VARIABLES
+#
+###########################################################################################
+
+# Just an example use case
+# enable_analytics: yes
+
+current_environment: "staging"
+_site_root: /ipt/
+_site_url: http://clients.hatchit.co/ipt/

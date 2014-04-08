@@ -1,0 +1,17 @@
+.section__footer
+  @extend .is__background--c-blk
+
+%footer__cta
+  +span-columns(6)
+  @extend .is__text--size--mega
+  @extend .is__text--thin
+
+  +media($tabletish)
+    +span-columns(3 of 6)
+  +media($tabletopish)
+    +span-columns(6 of 12)
+
+  @extend .is__text--centered
+
+.footer__email, .footer__call
+  @extend %footer__cta

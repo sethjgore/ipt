@@ -1,0 +1,40 @@
+.section__staff
+  min-height: 40vh
+  @extend .flex-both-center
+
+.section__staff-bio
+.staff__article
+  @extend .block
+  padding-bottom: 2rem
+  padding-top: 2rem
+
+.staff__image
+  height: 30rem
+  background-size: cover !important
+  @extend .is__background--c-blk
+
+  +span-columns(6)
+  +media($tabletopish)
+    +span-columns(6 of 12)
+
+.staff__identity
+  padding: 2rem
+  @extend .is__background--c-g
+
+.staff__name
+  @extend .is__text--c-w
+  padding: 0
+  margin: 0
+
+.staff__info
+  +span-columns(6)
+  +media($tabletopish)
+    +span-columns(6 of 12)
+
+
+.staff__content-box
+  +span-columns(6)
+  +media($tabletopish)
+    +span-columns(8 of 12)
+    +shift(2)
+
