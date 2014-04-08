@@ -112,9 +112,8 @@ _environments:
     - '*.dev'
     - '*.localip'
     - 'http://0.0.0.0'
-  live:
-    - '*.com'
-    - '*.info'
+  staging:
+    - 'clients.hatchit.co'
 
 # Set to 'true' if you want to log system messages
 _log_enabled: false
